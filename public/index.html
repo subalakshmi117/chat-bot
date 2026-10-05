@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SubAI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <!-- Header -->
+    <header class="chat-header">
+      <h1>SubAI</h1>
+      <span class="status-badge">Online</span>
+    </header>
+
+    <!-- Scrollable Chat Area -->
+    <div class="chat-messages" id="chat-messages">
+      <div class="message ai">
+        <div class="bubble">Hello! I am SubAI. How can I help you today?</div>
+      </div>
+    </div>
+
+    <!-- Input Form -->
+    <form class="chat-input-area" id="chat-form">
+      <input 
+        type="text" 
+        id="user-input" 
+        placeholder="Type a message..." 
+        autocomplete="off" 
+        required 
+      />
+      <button type="submit" id="send-btn">Send</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
